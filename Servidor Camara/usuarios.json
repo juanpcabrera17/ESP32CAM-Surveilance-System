@@ -1,0 +1,11 @@
+[{
+		"nombre": "Juan Pablo Cabrera",
+		"usuario": "juanpic17",
+		"password": "123456"
+	},
+	{
+		"nombre": "Admin Ejemplo",
+		"usuario": "AdminEjemplo",
+		"password": "admin"
+	}
+]

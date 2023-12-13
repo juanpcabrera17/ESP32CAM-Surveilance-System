@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/output.css">
+
+	<title>Sistema de Seguridad Integral IoT</title>
+</head>
+
+<body>
+	<section class=' gradient-form bg-gray-200 md:h-screen h-screen'>
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="z-0  fixed top-0 bg-gray-950  "
+			xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
+			<defs>
+				<filter id="bbblurry-filter" x="-100%" y="-100%" width="400%" height="400%"
+					filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+					<feGaussianBlur stdDeviation="82" x="0%" y="0%" width="100%" height="100%" in="SourceGraphic"
+						edgeMode="none" result="blur"></feGaussianBlur>
+				</filter>
+			</defs>
+			<g filter="url(#bbblurry-filter)">
+				<ellipse rx="218" ry="220.5" cx="744.5829103650708" cy="109.8554841744093"
+					fill="hsla(0, 0%, 19%, 1.00)">
+				</ellipse>
+				<ellipse rx="218" ry="220.5" cx="212.62449645996094" cy="590.4881591796875"
+					fill="hsla(236, 46%, 23%, 1.00)">
+				</ellipse>
+				<ellipse rx="218" ry="220.5" cx="918.6945233109652" cy="835.1130083309507"
+					fill="hsla(235, 50%, 35%, 1.00)">
+				</ellipse>
+			</g>
+		</svg>
+		<div class=' py-12 z-10 relative'>
+			<div class='flex justify-center items-center flex-wrap  g-6 text-gray-800'>
+				<div class='lg:flex justify-center lg:flex-wrap g-0 block bg-white shadow-lg rounded-lg w-[45%] py-12'>
+					<div class='w-1/2'>
+						<div class='text-center'>
+							<h4 class='text-xl font-semibold'>Sistema de Seguridad Integral IoT</h4>
+							<img class='mx-auto w-48 mb-12 mt-1 pb-1' src='./assets/logo.jpg' alt='logo' />
+						</div>
+						<form action='/login' method='post'>
+							<p class='mb-4'>Por favor ingresa tus datos</p>
+							<div class='mb-4'>
+								<input type='text'
+									class='form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none'
+									id='usuario' name='usuario' placeholder='Usuario' />
+							</div>
+							<div class='mb-4'>
+								<input type='password'
+									class='form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none'
+									id='password' name='password' placeholder='Contraseña' />
+							</div>
+							<div class='text-center pt-1 pb-1'>
+								<button
+									class='inline-block px-6 py-2.5 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full mb-3'
+									type='submit' data-mdb-ripple='true' data-mdb-ripple-color='light' style='
+															background: linear-gradient(
+																to right,
+																#ee7724,
+																#d8363a,
+																#dd3675,
+																#b44593
+															);
+															'>
+									Iniciar sesión
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+
+</html>
